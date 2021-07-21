@@ -2,6 +2,8 @@ SLR PARSER
 SLR (1) refers to simple LR Parsing. 
 The SLR parser is similar to LR(0) parser except that the reduced entry.
 The reduced productions are written only in the FOLLOW of the variable whose production is reduced.
+To construct SLR (1) parsing table, we use canonical collection of LR (0) item set.
+
 
 #Various steps involved in the SLR (1) Parsing:
 
